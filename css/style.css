@@ -620,9 +620,10 @@ font-weight: 300;
 }
 
 .footer_iner {
-  padding: 70px 0;
+  padding: 70px 10px;
   display: flex;
   flex-wrap: wrap;
+  
 
 }
 
