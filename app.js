@@ -3,7 +3,10 @@ $(function() {
 let header = $("#header");
 let intro = $("#intro");
 let introH = intro.innerHeight();
-let skrollPos = $(window).scrollTop();
+let scrollPos = $(window).scrollTop();
+let nav = $("#nav")
+let navToggle = $("#navToggle")
+
 
 checkScroll(scrollPos, introH);
 
@@ -13,7 +16,8 @@ $(window).on("scroll resize", function() {
 
     checkScroll(scrollPos, introH);
     });
-function checkScroll(scrollPos, introH) {
+
+    function checkScroll(scrollPos, introH) {
     if( scrollPos > introH ) {
         header.addClass("fixed");
     } else {
@@ -21,18 +25,30 @@ function checkScroll(scrollPos, introH) {
     }
 }
 
-/*smooth scroll */
+    /*smooth scroll */
 
-$("[data-sroll]").on("click", function(event) {
+    $("[data-scroll]").on("click", function(event) {
     event.preventDefault();
 
     let elementId = $(this).data("scroll");
     let elementOffset = $(elementId).offset().top;
 
+    nav.removeClass("show");
+    
     $("html, body").animate({
         scrollTop: elementOffset -70
-},700);
+}, 700);
 });
+
+
+/* navToggle */
+navToggle.on("click", function(event) {
+    event.preventDefault();
+
+nav.toggleClass("show");
+});
+
+
 
 
 });

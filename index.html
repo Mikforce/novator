@@ -5,10 +5,11 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <title>Novator</title>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </head>
   <body>
 
@@ -30,14 +31,14 @@
        <div class="header_inner">
         <div class="header_logo">Novator</div>
 
-          <nav class="nav">
-           <a class="nav_link" href="#" data-sroll="#team">Команда</a>
-           <a class="nav_link" href="#" data-sroll="#features">О нас</a>
-           <a class="nav_link" href="#" data-sroll="#works">Занятия</a>
-           <a class="nav_link" href="#" data-sroll="#footer">Контакты</a>
+          <nav class="nav" id="nav">
+           <a class="nav_link" href="#" data-scroll="#team">Команда</a>
+           <a class="nav_link" href="#" data-scroll="#features">О нас</a>
+           <a class="nav_link" href="#" data-scroll="#works">Занятия</a>
+           <a class="nav_link" href="#" data-scroll="#footer">Контакты</a>
           </nav>
          
-          <button class="burger" type="button">
+          <button class="burger" type="button" id="navToggle">
             <span class="burger_item">Menu</span>
           </button>
        
@@ -183,7 +184,7 @@
     </div>
   </div>
   <div class="works_item">
-    <img class="works_photo" src="img/IO.jpg" alt="">
+    <img class="works_photo" src="img\l0.jpg" alt="">
     <div class="works_content">
       <div class="works_title">foto</div>
       <div class="works_text">выступления</div>
