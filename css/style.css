@@ -210,7 +210,7 @@ color: yellowgreen;
 }
 
 /*tel:+79001111111*/
-.coll {
+/*.coll {
   margin: 30px 0;
   display: inline-block;
   vertical-align: top;
@@ -228,9 +228,12 @@ color: yellowgreen;
 .coll:hover {
   background-color: black;
   color: yellowgreen;
-  }
-
+  }*/
+  .coll {
+    margin: 30px 0;}
+    
 a[href^="tel:"] {
+  
   font-size: 16px;
   line-height: 32px;
   text-decoration: none;
