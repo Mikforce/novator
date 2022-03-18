@@ -4,13 +4,13 @@
   --color3: #FFD700;
 }
 body {
-  
+
   margin: 0;
   font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif; 
+font-family: 'Montserrat', sans-serif;
   background: var(--color2);
   font-size: 15px;
-  
+
 }
 
 *,
@@ -30,8 +30,8 @@ h1, h2, h3, h4, h5, h6  {
   max-width: 1200px;
   margin: 0 auto;
 
- 
-  
+
+
 }
 
 
@@ -46,8 +46,8 @@ width: 100%;
 height: 100vh;
 
 
-background: 
-url('../img/1613.jpg') center 
+background:
+url('../img/1613.jpg') center
 no-repeat;
 -webkit-background-size: cover;
 background-size: cover;
@@ -64,7 +64,7 @@ background-size: cover;
   font-size: 45px;
   font-weight: 700;
   text-transform: uppercase;
-  
+
   line-height: 1;
 }
 .intro_title:after {
@@ -157,7 +157,7 @@ transition: color .1s linear;
   left: 0;
   z-index: 1;
   transition: opacity .1s linear;
-  
+
 }
 .nav_link:hover {
   color: yellowgreen;
@@ -233,11 +233,11 @@ color: yellowgreen;
     margin: 30px 0;}
 
 a[href^="tel:"] {
-  
+
   font-size: 16px;
   line-height: 32px;
   text-decoration: none;
-  
+
 }
 
 
@@ -258,7 +258,7 @@ text-align: center;
 .section_title {
   font-size: 24px;
   color: black;
-  
+
   font-weight: 700;
   text-transform: uppercase;
 
@@ -270,7 +270,7 @@ text-align: center;
 
   font-size: 20px;
   color: black;
-  
+
   font-weight: 700;
   text-transform: uppercase;
 
@@ -287,11 +287,11 @@ content: "";
 /*about*/
 
 .about {
-  
-  
+
+
   display: flex;
   flex-wrap: wrap;
- 
+
 }
 
 .about_item {
@@ -323,7 +323,7 @@ transform: transform .2s liner;
 }
 
 .about_img img {
- 
+
   display: block;
 transition: opacity .1 liner;
 
@@ -360,7 +360,7 @@ transition: opacity .1 liner;
   padding-left: 30px;
   padding-right: 20px;
   position: relative;
-  
+
 }
 .services_icon {
 
@@ -394,7 +394,7 @@ color: black;
 }
 .features_item {
   width: 33.33333%;
-  
+
 margin: 25px 0;
 
   text-align: center;
@@ -437,7 +437,7 @@ overflow: hidden;
 }
 .works_item:hover .works_content {
   opacity: 1;
-  
+
 }
 .works_photo {
 min-width: 100%;
@@ -446,7 +446,7 @@ height: 350px;
   top: 50%;
   left: 50%;
   z-index: 1;
- transform: translate3d(-50%, -50%, 0); 
+ transform: translate3d(-50%, -50%, 0);
 }
 .works_content{
   display: flex;
@@ -493,14 +493,14 @@ margin-right: 30px;
 }
 .team_item {
   margin-bottom: 30px;
-  
+
   width: 25%;
  margin: 0 0px;
 }
 .team_photo {
   margin-bottom: 20px;
   display: block;
-  
+
   height: 250px;
   width: 250px;
 }
@@ -526,8 +526,10 @@ color: #000;
 /*social*/
 
 .social {
-  margin: 30px 0;
+  margin-top: 0px;
+  margin-bottom: 30px;
   display: flex;
+  justify-content: center;
 }
 .social--footer {
   justify-content: center;
@@ -539,13 +541,13 @@ color: #000;
   align-items: center;
   width: 40px;
   height: 40px;
-  
+
   transition: background .1s linear;
 }
 
 .social_icon {
   display: block;
-  
+
   height: 40px;
   fill: #717171;
   transition: fill .1s linear;
@@ -687,7 +689,7 @@ font-weight: 300;
 /* footer */
 
 .footer {
- 
+
   background-color: yellowgreen;
 }
 
@@ -695,7 +697,7 @@ font-weight: 300;
   padding: 70px 10px;
   display: flex;
   flex-wrap: wrap;
-  
+
 
 }
 
@@ -763,7 +765,7 @@ color: transparent;
 position: relative;
 }
 
-.burger_item:before, 
+.burger_item:before,
 .burger_item:after {
   content: "";
   width: 100%;
@@ -799,10 +801,10 @@ position: relative;
     display: none;
     width: 100%;
     flex-direction: column;
-   
+
     background-color: greenyellow;
     text-align: right;
-    
+
     position: absolute;
     top: 100%;
     right: 0;
@@ -820,7 +822,7 @@ position: relative;
   .burger {
     display: block;
   }
-  
+
   .intro_title {
     font-size: 40px;
   }
@@ -832,7 +834,7 @@ position: relative;
 }
 .team_item {
   width: 50%;
-  
+
   text-align: center;
 
 }
@@ -842,11 +844,10 @@ position: relative;
 }
 
 .social {
-  display: inline-block;
-justify-self: center;
-text-align: center;
-
+  display: flex;
+  justify-content: center;
 }
+
 .social_icon {
 
   vertical-align: middle;
@@ -867,7 +868,7 @@ text-align: center;
     padding-top: 130px;
     padding-bottom: 30px;
     padding-right: 30px;
-    
+
     }
     .intro_title {
       font-size: 30px;
@@ -906,4 +907,3 @@ linear, color .1s linear;
 
 
 }
-
