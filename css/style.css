@@ -47,7 +47,7 @@ height: 100vh;
 
 
 background:
-url('../img/abs.jpg') center
+url('../img/abs1.jpg') center
 no-repeat;
 -webkit-background-size: cover;
 background-size: cover;
@@ -209,27 +209,7 @@ background-color: black;
 color: yellowgreen;
 }
 
-/*tel:+79001111111*/
-/*.coll {
-  margin: 30px 0;
-  display: inline-block;
-  vertical-align: top;
-  padding: 8px 30px;
-  border: 3px solid black;
-  font-size: 14px;
-  font-weight: 700;
-  color: black;
-  text-transform: uppercase;
-  text-decoration: none;
-
-  transition: background .1s
-  linear, color .1s linear;
-}
-.coll:hover {
-  background-color: black;
-  color: yellowgreen;
-  }*/
-  .coll {
+ .coll {
     margin: 30px 0;}
 
 a[href^="tel:"] {
@@ -244,7 +224,7 @@ a[href^="tel:"] {
 
 /*section*/
 .section {
-padding: 50px;
+padding: 10px;
 
 
 }
@@ -579,6 +559,44 @@ fill: black;
 
 
 /*karysel*/
+/*
+video*/
+.wrapper {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+
+}
+.ittems {
+
+}
+.items_container {
+	max-width: 1200px;
+	margin: 0px auto;
+}
+.item_body {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, mivmax(290px, 1fr));
+}
+.item_video {
+	position: relative;
+  margin: 0px 0px 50 0px;
+	padding: 0px 0px 60% 0px;
+	
+}
+ .item_video video {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+
+ }
+
+
+
+
+
 
 
 
