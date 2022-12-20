@@ -924,5 +924,9 @@ transition: background .1s
 linear, color .1s linear;
 }
 
+.wrapper{
+  min-height: 0;
+}
+}
 
 }
